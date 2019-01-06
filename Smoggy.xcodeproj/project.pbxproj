@@ -1,0 +1,615 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3735F25F20F6748400BB0E68 /* GetSensors.m in Sources */ = {isa = PBXBuildFile; fileRef = 3735F25E20F6748400BB0E68 /* GetSensors.m */; };
+		3735F26420F6776100BB0E68 /* GetRecords.m in Sources */ = {isa = PBXBuildFile; fileRef = 3735F26220F6776100BB0E68 /* GetRecords.m */; };
+		3735F26720F6776800BB0E68 /* GetIndexes.m in Sources */ = {isa = PBXBuildFile; fileRef = 3735F26620F6776800BB0E68 /* GetIndexes.m */; };
+		3735F26F20F6892900BB0E68 /* SensorViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 3735F26E20F6892900BB0E68 /* SensorViewCell.m */; };
+		3768BBA120F387B9000250B3 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 3768BBA020F387B9000250B3 /* AppDelegate.m */; };
+		3768BBA420F387B9000250B3 /* MapVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 3768BBA320F387B9000250B3 /* MapVC.m */; };
+		3768BBAA20F387B9000250B3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3768BBA820F387B9000250B3 /* Main.storyboard */; };
+		3768BBAC20F387BB000250B3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3768BBAB20F387BB000250B3 /* Assets.xcassets */; };
+		3768BBAF20F387BB000250B3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3768BBAD20F387BB000250B3 /* LaunchScreen.storyboard */; };
+		3768BBB220F387BB000250B3 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 3768BBB120F387BB000250B3 /* main.m */; };
+		3768BBBA20F38A12000250B3 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3768BBB920F38A12000250B3 /* MapKit.framework */; };
+		378F4A1F20F5533000609191 /* CitySensorsTVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 378F4A1E20F5533000609191 /* CitySensorsTVC.m */; };
+		3792010920F39E5700C9EDAB /* GetStations.m in Sources */ = {isa = PBXBuildFile; fileRef = 3792010820F39E5700C9EDAB /* GetStations.m */; };
+		3792011120F3F2C400C9EDAB /* Commune.m in Sources */ = {isa = PBXBuildFile; fileRef = 3792011020F3F2C400C9EDAB /* Commune.m */; };
+		3792011420F3F2D200C9EDAB /* City.m in Sources */ = {isa = PBXBuildFile; fileRef = 3792011320F3F2D200C9EDAB /* City.m */; };
+		3792011720F3F2DE00C9EDAB /* Station.m in Sources */ = {isa = PBXBuildFile; fileRef = 3792011620F3F2DE00C9EDAB /* Station.m */; };
+		3792011B20F3F98100C9EDAB /* Sensor.m in Sources */ = {isa = PBXBuildFile; fileRef = 3792011A20F3F98100C9EDAB /* Sensor.m */; };
+		3792011F20F4003000C9EDAB /* Param.m in Sources */ = {isa = PBXBuildFile; fileRef = 3792011E20F4003000C9EDAB /* Param.m */; };
+		3792012320F4010A00C9EDAB /* Data.m in Sources */ = {isa = PBXBuildFile; fileRef = 3792012220F4010A00C9EDAB /* Data.m */; };
+		3792012720F4016200C9EDAB /* Value.m in Sources */ = {isa = PBXBuildFile; fileRef = 3792012620F4016200C9EDAB /* Value.m */; };
+		3792012B20F4027600C9EDAB /* AqIndex.m in Sources */ = {isa = PBXBuildFile; fileRef = 3792012A20F4027600C9EDAB /* AqIndex.m */; };
+		3792012F20F4042700C9EDAB /* IndexLevel.m in Sources */ = {isa = PBXBuildFile; fileRef = 3792012E20F4042700C9EDAB /* IndexLevel.m */; };
+		3792013520F4180600C9EDAB /* CitiesTVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 3792013420F4180600C9EDAB /* CitiesTVC.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		3735F25D20F6748400BB0E68 /* GetSensors.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GetSensors.h; sourceTree = "<group>"; };
+		3735F25E20F6748400BB0E68 /* GetSensors.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GetSensors.m; sourceTree = "<group>"; };
+		3735F26220F6776100BB0E68 /* GetRecords.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GetRecords.m; sourceTree = "<group>"; };
+		3735F26320F6776100BB0E68 /* GetRecords.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GetRecords.h; sourceTree = "<group>"; };
+		3735F26520F6776800BB0E68 /* GetIndexes.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GetIndexes.h; sourceTree = "<group>"; };
+		3735F26620F6776800BB0E68 /* GetIndexes.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GetIndexes.m; sourceTree = "<group>"; };
+		3735F26D20F6892900BB0E68 /* SensorViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SensorViewCell.h; sourceTree = "<group>"; };
+		3735F26E20F6892900BB0E68 /* SensorViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SensorViewCell.m; sourceTree = "<group>"; };
+		3768BB9C20F387B9000250B3 /* Smoggy.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Smoggy.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3768BB9F20F387B9000250B3 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		3768BBA020F387B9000250B3 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		3768BBA220F387B9000250B3 /* MapVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MapVC.h; sourceTree = "<group>"; };
+		3768BBA320F387B9000250B3 /* MapVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MapVC.m; sourceTree = "<group>"; };
+		3768BBA920F387B9000250B3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		3768BBAB20F387BB000250B3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		3768BBAE20F387BB000250B3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		3768BBB020F387BB000250B3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3768BBB120F387BB000250B3 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		3768BBB920F38A12000250B3 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		378F4A1D20F5533000609191 /* CitySensorsTVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CitySensorsTVC.h; sourceTree = "<group>"; };
+		378F4A1E20F5533000609191 /* CitySensorsTVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CitySensorsTVC.m; sourceTree = "<group>"; };
+		3792010720F39E5700C9EDAB /* GetStations.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GetStations.h; sourceTree = "<group>"; };
+		3792010820F39E5700C9EDAB /* GetStations.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GetStations.m; sourceTree = "<group>"; };
+		3792010F20F3F2C400C9EDAB /* Commune.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Commune.h; sourceTree = "<group>"; };
+		3792011020F3F2C400C9EDAB /* Commune.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Commune.m; sourceTree = "<group>"; };
+		3792011220F3F2D200C9EDAB /* City.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = City.h; sourceTree = "<group>"; };
+		3792011320F3F2D200C9EDAB /* City.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = City.m; sourceTree = "<group>"; };
+		3792011520F3F2DE00C9EDAB /* Station.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Station.h; sourceTree = "<group>"; };
+		3792011620F3F2DE00C9EDAB /* Station.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Station.m; sourceTree = "<group>"; };
+		3792011920F3F98100C9EDAB /* Sensor.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Sensor.h; sourceTree = "<group>"; };
+		3792011A20F3F98100C9EDAB /* Sensor.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Sensor.m; sourceTree = "<group>"; };
+		3792011D20F4003000C9EDAB /* Param.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Param.h; sourceTree = "<group>"; };
+		3792011E20F4003000C9EDAB /* Param.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Param.m; sourceTree = "<group>"; };
+		3792012120F4010A00C9EDAB /* Data.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Data.h; sourceTree = "<group>"; };
+		3792012220F4010A00C9EDAB /* Data.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Data.m; sourceTree = "<group>"; };
+		3792012520F4016200C9EDAB /* Value.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Value.h; sourceTree = "<group>"; };
+		3792012620F4016200C9EDAB /* Value.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Value.m; sourceTree = "<group>"; };
+		3792012920F4027600C9EDAB /* AqIndex.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AqIndex.h; sourceTree = "<group>"; };
+		3792012A20F4027600C9EDAB /* AqIndex.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AqIndex.m; sourceTree = "<group>"; };
+		3792012D20F4042700C9EDAB /* IndexLevel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = IndexLevel.h; sourceTree = "<group>"; };
+		3792012E20F4042700C9EDAB /* IndexLevel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = IndexLevel.m; sourceTree = "<group>"; };
+		3792013320F4180600C9EDAB /* CitiesTVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CitiesTVC.h; sourceTree = "<group>"; };
+		3792013420F4180600C9EDAB /* CitiesTVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CitiesTVC.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3768BB9920F387B9000250B3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3768BBBA20F38A12000250B3 /* MapKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3735F25B20F6728A00BB0E68 /* GetStations */ = {
+			isa = PBXGroup;
+			children = (
+				3792010720F39E5700C9EDAB /* GetStations.h */,
+				3792010820F39E5700C9EDAB /* GetStations.m */,
+			);
+			path = GetStations;
+			sourceTree = "<group>";
+		};
+		3735F25C20F6729D00BB0E68 /* GetSensors */ = {
+			isa = PBXGroup;
+			children = (
+				3735F25D20F6748400BB0E68 /* GetSensors.h */,
+				3735F25E20F6748400BB0E68 /* GetSensors.m */,
+			);
+			path = GetSensors;
+			sourceTree = "<group>";
+		};
+		3735F26020F6772100BB0E68 /* GetRecords */ = {
+			isa = PBXGroup;
+			children = (
+				3735F26320F6776100BB0E68 /* GetRecords.h */,
+				3735F26220F6776100BB0E68 /* GetRecords.m */,
+			);
+			path = GetRecords;
+			sourceTree = "<group>";
+		};
+		3735F26120F6772800BB0E68 /* GetIndexes */ = {
+			isa = PBXGroup;
+			children = (
+				3735F26520F6776800BB0E68 /* GetIndexes.h */,
+				3735F26620F6776800BB0E68 /* GetIndexes.m */,
+			);
+			path = GetIndexes;
+			sourceTree = "<group>";
+		};
+		3735F26C20F6892900BB0E68 /* SensorViewCell */ = {
+			isa = PBXGroup;
+			children = (
+				3735F26D20F6892900BB0E68 /* SensorViewCell.h */,
+				3735F26E20F6892900BB0E68 /* SensorViewCell.m */,
+			);
+			path = SensorViewCell;
+			sourceTree = "<group>";
+		};
+		3768BB9320F387B9000250B3 = {
+			isa = PBXGroup;
+			children = (
+				3768BB9E20F387B9000250B3 /* Smoggy */,
+				3768BB9D20F387B9000250B3 /* Products */,
+				3768BBB820F38A12000250B3 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		3768BB9D20F387B9000250B3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3768BB9C20F387B9000250B3 /* Smoggy.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3768BB9E20F387B9000250B3 /* Smoggy */ = {
+			isa = PBXGroup;
+			children = (
+				3792010B20F3F28600C9EDAB /* Models */,
+				3792010620F39E3800C9EDAB /* NetworkOperations */,
+				3768BBBB20F38A31000250B3 /* ViewControllers */,
+				3768BB9F20F387B9000250B3 /* AppDelegate.h */,
+				3768BBA020F387B9000250B3 /* AppDelegate.m */,
+				3768BBA820F387B9000250B3 /* Main.storyboard */,
+				3768BBAB20F387BB000250B3 /* Assets.xcassets */,
+				3768BBAD20F387BB000250B3 /* LaunchScreen.storyboard */,
+				3768BBB020F387BB000250B3 /* Info.plist */,
+				3768BBB120F387BB000250B3 /* main.m */,
+			);
+			path = Smoggy;
+			sourceTree = "<group>";
+		};
+		3768BBB820F38A12000250B3 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3768BBB920F38A12000250B3 /* MapKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		3768BBBB20F38A31000250B3 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				3768BBBD20F38A48000250B3 /* CitiesTVC */,
+				3768BBBC20F38A3E000250B3 /* MapVC */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		3768BBBC20F38A3E000250B3 /* MapVC */ = {
+			isa = PBXGroup;
+			children = (
+				3768BBA220F387B9000250B3 /* MapVC.h */,
+				3768BBA320F387B9000250B3 /* MapVC.m */,
+			);
+			path = MapVC;
+			sourceTree = "<group>";
+		};
+		3768BBBD20F38A48000250B3 /* CitiesTVC */ = {
+			isa = PBXGroup;
+			children = (
+				378F4A1C20F5517000609191 /* CityDetailsTVC */,
+				3792013320F4180600C9EDAB /* CitiesTVC.h */,
+				3792013420F4180600C9EDAB /* CitiesTVC.m */,
+			);
+			path = CitiesTVC;
+			sourceTree = "<group>";
+		};
+		378F4A1C20F5517000609191 /* CityDetailsTVC */ = {
+			isa = PBXGroup;
+			children = (
+				3735F26C20F6892900BB0E68 /* SensorViewCell */,
+				378F4A1D20F5533000609191 /* CitySensorsTVC.h */,
+				378F4A1E20F5533000609191 /* CitySensorsTVC.m */,
+			);
+			path = CityDetailsTVC;
+			sourceTree = "<group>";
+		};
+		3792010620F39E3800C9EDAB /* NetworkOperations */ = {
+			isa = PBXGroup;
+			children = (
+				3735F26120F6772800BB0E68 /* GetIndexes */,
+				3735F26020F6772100BB0E68 /* GetRecords */,
+				3735F25C20F6729D00BB0E68 /* GetSensors */,
+				3735F25B20F6728A00BB0E68 /* GetStations */,
+			);
+			path = NetworkOperations;
+			sourceTree = "<group>";
+		};
+		3792010B20F3F28600C9EDAB /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				3792012820F4024800C9EDAB /* AqIndex */,
+				3792012020F400F700C9EDAB /* Data */,
+				3792011820F3F97300C9EDAB /* Sensor */,
+				3792010C20F3F28E00C9EDAB /* Station */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		3792010C20F3F28E00C9EDAB /* Station */ = {
+			isa = PBXGroup;
+			children = (
+				3792010D20F3F29E00C9EDAB /* City */,
+				3792011520F3F2DE00C9EDAB /* Station.h */,
+				3792011620F3F2DE00C9EDAB /* Station.m */,
+			);
+			path = Station;
+			sourceTree = "<group>";
+		};
+		3792010D20F3F29E00C9EDAB /* City */ = {
+			isa = PBXGroup;
+			children = (
+				3792010E20F3F2AA00C9EDAB /* Commune */,
+				3792011220F3F2D200C9EDAB /* City.h */,
+				3792011320F3F2D200C9EDAB /* City.m */,
+			);
+			path = City;
+			sourceTree = "<group>";
+		};
+		3792010E20F3F2AA00C9EDAB /* Commune */ = {
+			isa = PBXGroup;
+			children = (
+				3792010F20F3F2C400C9EDAB /* Commune.h */,
+				3792011020F3F2C400C9EDAB /* Commune.m */,
+			);
+			path = Commune;
+			sourceTree = "<group>";
+		};
+		3792011820F3F97300C9EDAB /* Sensor */ = {
+			isa = PBXGroup;
+			children = (
+				3792011C20F4002300C9EDAB /* Param */,
+				3792011920F3F98100C9EDAB /* Sensor.h */,
+				3792011A20F3F98100C9EDAB /* Sensor.m */,
+			);
+			path = Sensor;
+			sourceTree = "<group>";
+		};
+		3792011C20F4002300C9EDAB /* Param */ = {
+			isa = PBXGroup;
+			children = (
+				3792011D20F4003000C9EDAB /* Param.h */,
+				3792011E20F4003000C9EDAB /* Param.m */,
+			);
+			path = Param;
+			sourceTree = "<group>";
+		};
+		3792012020F400F700C9EDAB /* Data */ = {
+			isa = PBXGroup;
+			children = (
+				3792012420F4015600C9EDAB /* Value */,
+				3792012120F4010A00C9EDAB /* Data.h */,
+				3792012220F4010A00C9EDAB /* Data.m */,
+			);
+			path = Data;
+			sourceTree = "<group>";
+		};
+		3792012420F4015600C9EDAB /* Value */ = {
+			isa = PBXGroup;
+			children = (
+				3792012520F4016200C9EDAB /* Value.h */,
+				3792012620F4016200C9EDAB /* Value.m */,
+			);
+			path = Value;
+			sourceTree = "<group>";
+		};
+		3792012820F4024800C9EDAB /* AqIndex */ = {
+			isa = PBXGroup;
+			children = (
+				3792012C20F4041500C9EDAB /* IndexLevel */,
+				3792012920F4027600C9EDAB /* AqIndex.h */,
+				3792012A20F4027600C9EDAB /* AqIndex.m */,
+			);
+			path = AqIndex;
+			sourceTree = "<group>";
+		};
+		3792012C20F4041500C9EDAB /* IndexLevel */ = {
+			isa = PBXGroup;
+			children = (
+				3792012D20F4042700C9EDAB /* IndexLevel.h */,
+				3792012E20F4042700C9EDAB /* IndexLevel.m */,
+			);
+			path = IndexLevel;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3768BB9B20F387B9000250B3 /* Smoggy */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3768BBB520F387BB000250B3 /* Build configuration list for PBXNativeTarget "Smoggy" */;
+			buildPhases = (
+				3768BB9820F387B9000250B3 /* Sources */,
+				3768BB9920F387B9000250B3 /* Frameworks */,
+				3768BB9A20F387B9000250B3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Smoggy;
+			productName = Smoggy;
+			productReference = 3768BB9C20F387B9000250B3 /* Smoggy.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3768BB9420F387B9000250B3 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0940;
+				ORGANIZATIONNAME = "Grzegorz Górnisiewicz";
+				TargetAttributes = {
+					3768BB9B20F387B9000250B3 = {
+						CreatedOnToolsVersion = 9.4.1;
+						SystemCapabilities = {
+							com.apple.Maps.iOS = {
+								enabled = 1;
+							};
+						};
+					};
+				};
+			};
+			buildConfigurationList = 3768BB9720F387B9000250B3 /* Build configuration list for PBXProject "Smoggy" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 3768BB9320F387B9000250B3;
+			productRefGroup = 3768BB9D20F387B9000250B3 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3768BB9B20F387B9000250B3 /* Smoggy */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3768BB9A20F387B9000250B3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3768BBAF20F387BB000250B3 /* LaunchScreen.storyboard in Resources */,
+				3768BBAC20F387BB000250B3 /* Assets.xcassets in Resources */,
+				3768BBAA20F387B9000250B3 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3768BB9820F387B9000250B3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3792012F20F4042700C9EDAB /* IndexLevel.m in Sources */,
+				3735F26F20F6892900BB0E68 /* SensorViewCell.m in Sources */,
+				3792010920F39E5700C9EDAB /* GetStations.m in Sources */,
+				3792011B20F3F98100C9EDAB /* Sensor.m in Sources */,
+				3735F26420F6776100BB0E68 /* GetRecords.m in Sources */,
+				3792012720F4016200C9EDAB /* Value.m in Sources */,
+				3768BBA120F387B9000250B3 /* AppDelegate.m in Sources */,
+				3792012B20F4027600C9EDAB /* AqIndex.m in Sources */,
+				3768BBB220F387BB000250B3 /* main.m in Sources */,
+				3792012320F4010A00C9EDAB /* Data.m in Sources */,
+				3735F25F20F6748400BB0E68 /* GetSensors.m in Sources */,
+				3792011120F3F2C400C9EDAB /* Commune.m in Sources */,
+				3735F26720F6776800BB0E68 /* GetIndexes.m in Sources */,
+				3792011420F3F2D200C9EDAB /* City.m in Sources */,
+				3792011720F3F2DE00C9EDAB /* Station.m in Sources */,
+				3792013520F4180600C9EDAB /* CitiesTVC.m in Sources */,
+				378F4A1F20F5533000609191 /* CitySensorsTVC.m in Sources */,
+				3768BBA420F387B9000250B3 /* MapVC.m in Sources */,
+				3792011F20F4003000C9EDAB /* Param.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		3768BBA820F387B9000250B3 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3768BBA920F387B9000250B3 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		3768BBAD20F387BB000250B3 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3768BBAE20F387BB000250B3 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		3768BBB320F387BB000250B3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		3768BBB420F387BB000250B3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3768BBB620F387BB000250B3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = F3TEC588SR;
+				INFOPLIST_FILE = Smoggy/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = co.longroad.Smoggy;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		3768BBB720F387BB000250B3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = F3TEC588SR;
+				INFOPLIST_FILE = Smoggy/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = co.longroad.Smoggy;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3768BB9720F387B9000250B3 /* Build configuration list for PBXProject "Smoggy" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3768BBB320F387BB000250B3 /* Debug */,
+				3768BBB420F387BB000250B3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3768BBB520F387BB000250B3 /* Build configuration list for PBXNativeTarget "Smoggy" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3768BBB620F387BB000250B3 /* Debug */,
+				3768BBB720F387BB000250B3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3768BB9420F387B9000250B3 /* Project object */;
+}
